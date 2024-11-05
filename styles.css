@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* Full-page styling */
+/* Full-page setup */
 body, html {
     width: 100%;
     height: 100%;
@@ -18,15 +18,48 @@ body, html {
     overflow: hidden;
 }
 
-/* Centered content styling */
-.centered-content {
+/* Main container styling */
+.container {
     text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
 }
 
-.centered-content h1 {
+/* Header styling */
+.container h1 {
     font-size: 48px;
     color: #333;
+    margin-bottom: 20px;
     animation: pulse 2s infinite;
+}
+
+/* Paragraph styling */
+.container p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.container strong {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Horizontal line styling */
+.container hr {
+    width: 60%;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 20px auto;
+}
+
+/* Footer text styling */
+.footer {
+    font-size: 18px;
+    color: #999;
 }
 
 /* Animation for pulsing effect */
